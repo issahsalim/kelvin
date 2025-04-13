@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+.intro {
+    display: grid;
+    place-items: center;
+}
+
+.selfImg {
+    width: 20%;
+    border-radius: 360px;
+    height: 20rem;
+
+}
+
+section{
+    margin-top: 40px;
+}
+
+.detailsinfo {
+    width: 100%;
+    height: 40px; 
+    gap: 20px; 
+    margin-top: 10px;
+}
+ 
+.about_links {
+    display: flex;
+    gap: 40px; 
+}
+
+.links {
+    color: white;
+    cursor: pointer;
+}
+
+.active-link {
+    color: red;
+}
+
+
+.abouts_contents{
+    display: none;
+}
+.active-content{
+    display: block; 
+}
+
+.jsh,.Shs,.Uni>li{
+    list-style:"🔥";
+}
+.aboutinfo{
+    width: 90%;
+ }
+
+ .divider{
+  display: none;
+ }
+
+ .GRRR{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+ }
+
+
+.anotherinfo{
+    background-image: url('images/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vh; 
+} 
+
+/* smaller screen */
+@media (max-width:768px) {
+    .selfImg {
+        width: 45%;
+        border-radius: 360px;
+        height: 15rem;
+
+    }
+
+    .divider{
+        display: block;
+    } 
+
+    .about_links {
+        display: flex;
+        gap: 30px;
+        cursor: pointer;
+    }
+        .aboutinfo {
+            width: 100%;
+        }
+}
